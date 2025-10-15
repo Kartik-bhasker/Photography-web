@@ -1,0 +1,38 @@
+NETLIFY DEPLOYMENT CHECKLIST
+============================
+
+FILES TO UPLOAD TO NETLIFY:
+✅ index.html (your main website file)
+✅ netlify.toml (deployment configuration)
+✅ _headers (security headers)
+✅ _redirects (URL redirects)
+✅ package.json (simple static site config)
+✅ .netlifyignore (excludes Next.js files)
+
+IMAGES & VIDEOS TO INCLUDE:
+✅ wedding hover.jpg
+✅ pre before hover.jpg
+✅ photoframe hover.jpg
+✅ wedding 2 hover.jpg
+✅ studio img.jpg
+✅ wedding image.jpg
+✅ pre wedding image.jpg
+✅ WhatsApp Image 2025-09-19 at 9.51.19 PM.jpeg
+✅ wedding video.mp4
+✅ pre wedding vedio.mp4
+✅ photo frame video.mp4
+
+NETLIFY SETTINGS:
+- Build command: echo "Static HTML site"
+- Publish directory: . (dot)
+- Base directory: (leave empty)
+- Remove any Next.js plugins
+
+WHAT'S FIXED:
+✅ No Next.js plugin conflicts
+✅ No configuration errors
+✅ Clean static HTML deployment
+✅ All redirects working
+✅ YouTube videos embedded properly
+
+READY TO DEPLOY! 🚀
